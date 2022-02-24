@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #46c4ff;
+    font-family: 'Poppins';
+}
+
+#main {
+    background-color: #f7f7f7;
+    width: 290px;
+    padding: 15px;
+    border-radius: 15px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#main #image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#main #info {
+    margin: 15px;
+    text-align: center;
+}
+
+#main #info p:first-of-type {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+#main #info p:last-of-type {
+    color: #0009;
+    font-size: 14px;
+    font-weight: 500;
+}
